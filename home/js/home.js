@@ -85,7 +85,7 @@
         $(".home-main-dynamic-swiper").append(swiperslideimg);
     };
     Home.prototype.showDemos = function (info) {
-        var demoscontainer = $("<div class='box'><img src="+info.moveUrl+"></div>");
+        var demoscontainer = $("<div class='box img-responsive'><img src="+info.moveUrl+"></div>");
         var demosmall = $("<div class='smallbox'><p class='showdemop'><img src="+info.authorimg+" style='width:36px;height:36px'><h4>"+info.title+"</h4></p><P class='showdemop2'>"+info.content+"</P></div>");
         $(".demoscontainer").append(demoscontainer);
         demoscontainer.append(demosmall);
