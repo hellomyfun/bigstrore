@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="bower_components/swiper/dist/css/swiper.min.css">
+    <script src="bower_components/swiper/dist/js/swiper.min.js"></script>
+
+    <link rel="stylesheet" href="bower_components/swiper/dist/css/animate.min.css">
+    <script src="bower_components/swiper/dist/js/swiper.animate1.0.2.min.js"></script>
+    <link rel="stylesheet/less" href="home/css/home.less">
+
+    <!--<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>-->
+    <script src="bower_components/masonry.pkgd.min.js"></script>
+    <!--<link rel="stylesheet" href="home/css/style.css">-->
+</head>
+<body>
+
+<header class="home-top-container container-fluid">
+    <section class="home-top-view">
+        <section class="container">
+            <section class="row">
+                <section class="col-xs-12 col-sm-4 col-md-4 home-top-view-logo"><a href="#"><img src="home/images/home/nav/logo.png" alt=""></a></section>
+                <section class="col-xs-12 hidden-xs col-sm-4 col-md-4 home-top-view-saerch">
+                    <div class="input-group">
+                        <input type="text" class="form-control">
+                        <span class="input-group-addon">搜索</span>
+                    </div>
+                </section>
+                <section class="col-xs-12 hidden-xs col-sm-4 col-md-4 home-top-view-tel ">
+                    <a href="#" class="pull-right"><img src="home/images/home/nav/tel.png" alt=""></a>
+                </section>
+            </section>
+
+        </section>
+
+    </section>
+    <nav class="home-top-navigation">
+        <section class="container text-center">
+
+        </section>
+    </nav>
+    <section class="home-top-banner">
+
+    </section>
+</header>
+<!--main-->
+<section class="home-main-container container">
+    <section id="home-main-dynamic">
+        <section class="row">
+            <section class="col-xs-12">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper home-main-dynamic-swiper">
+                    <!--<div class="swiper-slide swiper-first"><img src="home/images/home/dynamic/dynamic06.png" class="img-responsive"></div>
+                    <div class="swiper-slide"><img src="home/images/home/dynamic/dynamic02.png" class=" img-responsive"></div>
+                    <div class="swiper-slide"><img src="home/images/home/dynamic/dynamic03.jpg" class=" img-responsive"></div>
+                    <div class="swiper-slide"><img src="home/images/home/dynamic/dynamic04.jpg" class=" img-responsive"></div>
+                    <div class="swiper-slide"><img src="home/images/home/dynamic/dynamic05.jpg" class=" img-responsive"></div>-->
+                    </div>
+               </div>
+                <div class="swiper-button-prev home-main-dynamic-prevbutton hidden-xs">
+                    <img src="home/images/home/imgtitle/prebtn.png" alt="" class="img-responsive">
+                </div>
+                <div class="swiper-button-next home-main-dynamic-nextbutton hidden-xs">
+                    <img src="home/images/home/imgtitle/nextbtn.png" alt="" class="img-responsive">
+                </div>
+            </section>
+        </section>
+
+    </section>
+    <section id="home-main-demos">
+        <section class="row">
+            <section class="col-xs-12 text-center home-main-demos-title">
+                <img src="home/images/home/demos/titleimg.png" alt="" class="img-responsive">
+            </section>
+        </section>
+        <section class="row">
+            <section class="col-xs-12 text-center">
+                <div id="masonry" class="container-fluid demoscontainer">
+
+                </div>
+
+            </section>
+
+        </section>
+        
+    </section>
+    <section id="home-main-news">
+        <section class="row">
+            <section class="col-xs-12 home-main-news-title">
+                <img src="home/images/home/news/titleimg.png" class="img-responsive">
+            </section>
+        </section>
+        <section class="row hidden-xs">
+            <section class="col-xs-12 home-main-news-container">
+                <img src="home/images/home/news/backgroundimg.png" alt="" class="img-responsive hidden-xs">
+                <div class="imgcontainer row">
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <p>sss</p>
+                        <p>sss</p>
+                        <p>sss</p>
+                    </div>
+                    <div class="col-xs-12 hidden-xs col-sm-4 col-lg-4 imgcontainer2"><img class="img-responsive imgcontainer2" src="home/images/home/news/time.png"></div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <p>sss</p>
+                        <p>sss</p>
+                        <p>sss</p>
+                        <p>sss</p>
+                    </div>
+
+                    </div>
+                </div>
+
+
+
+            </section>
+        </section>
+    </section>
+    <section id="home-main-teams"></section>
+    <section id="home-main-note"></section>
+</section>
+<!--footer-->
+<footer class="home-main-footer container-fluid">
+
+</footer>
+
+<script src="bower_components/less/dist/less.min.js"></script>
+<script src="tools/httpManager/httpManger.js"></script>
+<script src="home/js/home.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

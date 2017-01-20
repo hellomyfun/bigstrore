@@ -1,0 +1,176 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "data": [
+{
+  "nav": [
+    {
+      "id": "1",
+      "name": "网站首页"
+    },
+    {
+      "id": "2",
+      "name": "装修套餐"
+    },
+    {
+      "id": "3",
+      "name": "装修案例"
+    },
+    {
+      "id": "4",
+      "name": "设计团队"
+    },
+    {
+      "id": "5",
+      "name": "装修日记"
+    },
+    {
+      "id": "6",
+      "name": "新闻媒体"
+    },
+    {
+      "id": "7",
+      "name": "关于企业"
+    },
+    {
+      "id": "8",
+      "name": "联系方式"
+    }
+  ]
+},
+{"home": {
+"bannerImages":["home/images/home/banner/banner01.jpg", "home/images/home/banner/banner02.jpg", "home/images/home/banner/banner03.jpg", "home/images/home/banner/banner04.jpg","home/images/home/banner/banner04.jpg"]
+}
+},
+{"dynamic":[
+{
+"title": "免费预约",
+"imgurl": "home/images/home/dynamic/imgurl01.png",
+"backgroundimg": "home/images/home/dynamic/dynamic02.png"
+},
+{
+"title": "免费量房",
+"imgurl": "home/images/home/dynamic/imgurl02.png",
+"backgroundimg": "home/images/home/dynamic/dynamic03.jpg"
+},
+{
+"title": "极致设计",
+"imgurl": "home/images/home/dynamic/imgurl03.png",
+"backgroundimg": "home/images/home/dynamic/dynamic04.jpg"
+},
+{
+"title": "旧房迁改",
+"imgurl": "home/images/home/dynamic/imgurl04.png",
+"backgroundimg": "home/images/home/dynamic/dynamic05.jpg"
+},
+{
+"title": "装修贷款",
+"imgurl": "home/images/home/dynamic/imgurl05.png",
+"backgroundimg": "home/images/home/dynamic/dynamic06.png"
+}
+]},
+{
+"demos":[
+{
+"moveUrl": "home/images/home/demos/demo01.png",
+"authorimg": "home/images/home/demos/autorimg.png",
+"title": "古朴 “和风",
+"content": "这是日式的古朴风格结合现代节约的设计风潮，将鲜的手法带入到日式的传统文化的分割中，清浅的小调也别有一番风情。"
+},
+{
+"moveUrl": "home/images/home/demos/02.gif",
+  "authorimg": "home/images/home/demos/autorimg.png",
+"title": "古朴 “和风",
+"content": "这是日式的古朴风格结合现代节约的设计风潮。"
+},
+{
+"moveUrl": "home/images/home/demos/03.gif",
+  "authorimg": "home/images/home/demos/autorimg.png",
+"title": "古朴 “和风",
+"content": "这是日式的古朴风格结合现代节约的设计风潮，将鲜的手法带入到日式的传统文化的分割中，清浅的小调也别有一番风情。"
+},
+{
+"moveUrl": "home/images/home/demos/04.gif",
+  "authorimg": "home/images/home/demos/autorimg.png",
+"title": "古朴 “和风",
+"content": "这是日式的古朴风格结合现代节约的设计风潮，将鲜的手法带入到日式的传统文化的分割中，清浅的小调也别有一番风情。"
+},
+{
+"moveUrl": "home/images/home/demos/05.gif",
+  "authorimg": "home/images/home/demos/autorimg.png",
+"title": "古朴 “和风",
+"content": "这是日式的古朴风格结合现代节约的设计风潮"
+},
+{
+"moveUrl": "home/images/home/demos/02.gif",
+  "authorimg": "home/images/home/demos/autorimg.png",
+"title": "古朴 “和风",
+"content": "这是日式的古朴风格结合现代节约的设计风潮，将鲜的手法带入到日式的传统文化的分割中。"
+},
+  {
+    "moveUrl": "home/images/home/demos/06.gif",
+    "authorimg": "home/images/home/demos/autorimg.png",
+    "title": "",
+    "content": "这是日式的古朴风"
+  }
+]},
+{
+"news":[
+{"titleimg": ""},
+{
+"backgroundImage": "",
+"timeimg": "",
+"des":["十月限量抢购", "三种风格任意挑选", "精致样板房", "三种风格任意挑选", "三种风格任意挑选","三种风格任意挑选"]
+}
+]},
+{
+"teams": [
+{"titleimg": "images/home/team/titleimg.png"},
+{"name": "王晓",
+"authorimg": "images/home/team/authorimg01.png",
+"title": "高级主任设计师"
+},
+{"name": "王晓",
+"authorimg": "images/home/team/authorimg02.png",
+"title": "高级主任设计师"
+},
+{
+"name": "王晓",
+"authorimg": "images/home/team/authorimg03.png",
+"title": "高级主任设计师"
+}
+]},
+{
+"backgroundimage": "images/home/note/backgroundimg.png",
+"note":[
+{"backgroundimg": "images/home/note/background01.png",
+"title": "书房",
+"des":["榻榻米", "直角书桌组合", "转角书桌组合", "飘窗利用", "书柜组合"]
+},
+{"backgroundimg": "images/home/note/background02.png",
+"title": "卧室",
+"des":["整体衣柜", "衣帽间", "飘窗", "定制床", "组合装饰柜","电视组合柜", "米兰范卧室"]
+},
+{"backgroundimg": "images/home/note/background03.png",
+"title": "厨房 ",
+"des":["一字型", "L型", "U型", "英伦风情", "新型实用","雅致厨房", "提拉米苏厨房", "丹麦厨房 "]
+},
+{"backgroundimg": "images/home/note/background04.png",
+"title": "客厅",
+"des":["电视柜组合", "鞋柜组合", "餐柜组合", "隔断柜组合", "沙发茶几组合","吧台组合"]
+}
+]},
+    {
+      "about": {
+        "tel": "020-34273471",
+        "Fex": "020-34273471",
+        "address": "广州市珠海区大干围路38号海珠创意产业园12栋南楼7楼(510288)",
+        "servicetel": "020-28050902",
+        "serviceemail": "service@toyouth.com",
+        "pelemaile": "hrep@toyouth.com",
+        "sinaimg": "images/home/about/sinaimg.png",
+        "QRcode": "images/home/about/QRcode.png"
+      }
+    }
+]
+}
