@@ -22,6 +22,7 @@
             });
             self.showTopBanner();
             self.dynamic();
+            self.showTeam();
         });
     }
     /*nav导航栏*/
@@ -70,7 +71,7 @@
         });
     }
     Home.prototype.dynamic = function () {
-        new Swiper(".swiper-container",{
+        new Swiper(".dynamic-swiper-container",{
             loop: true,
             initialSlide :0,
             slidesPerView:5,
@@ -98,6 +99,24 @@
             $(this).css("opacity","1");
         })
     }
+    Home.prototype.showTeam = function () {
+            new Swiper('.home-main-teams-swiper-container',{
+            effect : 'coverflow',
+            loop : true,
+            slidesPerView: 3,
+            centeredSlides: true,
+            prevButton:'.swiper-button-prev',
+            nextButton:'.swiper-button-next',
+            coverflow: {
+                rotate:-20,
+                stretch:0,
+                depth: 90,
+                modifier: 1.8,
+                slideShadows : true
+            }
+        })
+    }
+
 
     window.Home = Home;
 })();
